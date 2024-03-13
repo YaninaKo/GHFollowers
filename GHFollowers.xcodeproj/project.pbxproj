@@ -45,6 +45,7 @@
 		48D2297D2B97436000F776F0 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D2297C2B97436000F776F0 /* GFTabBarController.swift */; };
 		48D2297F2B9759C600F776F0 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D2297E2B9759C600F776F0 /* GFAlertContainerView.swift */; };
 		48D229812B97620500F776F0 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D229802B97620500F776F0 /* GFDataLoadingVC.swift */; };
+		48F8F9A92BA1D09900DF4738 /* FollowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8F9A82BA1D09900DF4738 /* FollowerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		48D2297C2B97436000F776F0 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		48D2297E2B9759C600F776F0 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		48D229802B97620500F776F0 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		48F8F9A82BA1D09900DF4738 /* FollowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +214,7 @@
 		485C9A262B860CDB0021CE97 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				485C9A272B860CFB0021CE97 /* FollowerCell.swift */,
+				48F8F9A72BA1D06D00DF4738 /* FollowerCell */,
 				48D229792B97390700F776F0 /* FavoriteCell.swift */,
 			);
 			path = Cells;
@@ -291,6 +293,15 @@
 			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
+		48F8F9A72BA1D06D00DF4738 /* FollowerCell */ = {
+			isa = PBXGroup;
+			children = (
+				485C9A272B860CFB0021CE97 /* FollowerCell.swift */,
+				48F8F9A82BA1D09900DF4738 /* FollowerView.swift */,
+			);
+			path = FollowerCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -361,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F8F9A92BA1D09900DF4738 /* FollowerView.swift in Sources */,
 				485C9A1F2B84DEBC0021CE97 /* User.swift in Sources */,
 				4837110A2B71B760000DD42F /* FavoritesListVC.swift in Sources */,
 				4837110C2B72BA87000DD42F /* GFButton.swift in Sources */,
